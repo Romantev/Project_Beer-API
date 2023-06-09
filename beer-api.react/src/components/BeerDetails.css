@@ -1,0 +1,36 @@
+.beer-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.beer-details img {
+  width: 20%;
+}
+
+.beer-details div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.beer-details h2 {
+  font-size: 5rem;
+  color: rgb(253, 221, 139);
+}
+
+.beer-details h3 {
+  font-size: 2rem;
+}
+
+.beer-details h3 span {
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 600px) {
+  .beer-details img {
+    width: 50%;
+  }
+}
